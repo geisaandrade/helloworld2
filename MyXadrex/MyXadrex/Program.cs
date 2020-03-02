@@ -13,6 +13,9 @@ namespace MyXadrex
             Console.WriteLine("Posiçao: " + P);
 
             Tabuleiro tab = new Tabuleiro(8, 8);
+
+            Tela.DisplayTabuleiro(tab);
+
             Console.ReadLine();
         }
     }

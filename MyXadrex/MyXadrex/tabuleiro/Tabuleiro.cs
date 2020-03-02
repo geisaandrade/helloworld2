@@ -7,9 +7,6 @@ namespace tabuleiro
         public int linhas;
         public int colunas;
         private Peca[,] pecas;
-        private int v1;
-        private int v2;
-
         
 
         public Tabuleiro(int linhas, int colunas)
@@ -18,5 +15,11 @@ namespace tabuleiro
             this.colunas = colunas;
             pecas = new Peca[linhas, colunas];
         }
+
+        public Peca peca( int linha, int coluna)
+        {
+            return pecas[linha, coluna];
+        }
+
     }
 }
