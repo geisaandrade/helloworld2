@@ -22,6 +22,7 @@ namespace MyXadrex
                         Console.Write(tab.peca(i, j) + "  ");
                     }
 
+
                     
                 }
                 Console.WriteLine();
